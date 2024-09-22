@@ -59,3 +59,45 @@ Step 24(End configuring) : Pom.xml > Paste dependency related to "extent reports
 Step 25(All Object Repository files): src/test/java > Create Java package "page.objects" > Inside create class "Page_NameOR.java"
 
 Steps 26(All Methods files): src/test/java > Create package "selenium.methods" > Inside create class "Page_NameMethods.java"
+
+
+
+Git Setup
+
+Github.com
+1. Create a new repository
+2. Give "Repository name".
+3. Create Repository
+4. Copy URL.
+5. Profile > Settings > Developer Settings
+6. Token(classic) > Generate new token (classic)
+7. Note (Eg: BDDPush)
+8. Expiration > Never
+9. Select scopes > Select all Checkbox
+10. Generate token.
+11. Copy personal token access
+
+Eclipse
+12. Project > Right click > Teams > Share project
+13. Share project popup > Select checkbox "Use or create repository" 
+14. Select project > Click Repository > Click Finish
+15. Project > Right click > Teams > Commit
+16. Git staging (side of console) 
+17. Unstaged Changes > Select all > Drag all and drop to Staged Changes
+18. Commit message (Ex : First time git push)
+19. Click Commit
+20. Push head 
+21. Destionation Git Repository popup will open
+22. Fill previously copied URL.
+23. User > JwebmaxJ
+24. Password > Previously copied "personal token access"
+25. Preview
+26. Select checkbox "Force overwrite"
+27. Preview
+28. Push
+29. Again fill same credentials if asked > Login > Close
+ 
+ After any change
+ 30. Repeat Unstaged changes drag and drop to staged
+ 31. Commit > push head > Push on popup
+ 
